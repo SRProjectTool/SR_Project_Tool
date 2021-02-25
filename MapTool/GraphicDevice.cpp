@@ -67,12 +67,12 @@ HRESULT CGraphicDevice::Ready_GraphicDevice()
 
 void CGraphicDevice::Free()
 {
-	if (Safe_Release(m_pDevice))
+	if (FAILED(Safe_Release(m_pDevice)))
 	{
 		MSG_BOX(L"Failed To Release m_pDevice");
 	}
 
-	if (Safe_Release(m_pSDK))
+	if (FAILED(Safe_Release(m_pSDK)))
 	{
 		MSG_BOX(L"Failed To Release m_pSDK");
 	}
