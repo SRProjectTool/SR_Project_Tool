@@ -1,0 +1,22 @@
+#pragma once
+
+#include "VIBuffer.h"
+
+class CVIBuffer_RectColor : public CVIBuffer
+{
+protected:
+	explicit CVIBuffer_RectColor(LPDIRECT3DDEVICE9 pDevice);
+	explicit CVIBuffer_RectColor(const CVIBuffer_RectColor& other);
+	virtual ~CVIBuffer_RectColor() = default;
+
+public:
+	virtual HRESULT Ready_Component_Prototype() override;
+	virtual HRESULT Ready_Component(void * pArg = nullptr) override;
+	virtual HRESULT Render_Buffer() override;
+
+public:
+	static CVIBuffer_RectColor* Create(LPDIRECT3DDEVICE9 pDevice);
+	virtual CComponent * Clone(void * pArg = nullptr) override;
+	virtual void Free() override;
+};
+

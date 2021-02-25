@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{e7457617-79b5-44fc-80f2-8f5db8ba6f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\00.Headers">
+      <UniqueIdentifier>{0590b301-22f3-42cb-b177-d76fe9d37cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\01.GraphicDevice">
+      <UniqueIdentifier>{94f04063-a40f-4591-9a6f-145f53e03c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MFC">
+      <UniqueIdentifier>{812b4941-f787-43c4-b598-4a56e51aa1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MFC\00.MainFrm">
+      <UniqueIdentifier>{a0f9036c-e2d1-4942-b92d-be933e8ac632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MFC\01.View">
+      <UniqueIdentifier>{97d36077-5b90-4044-832f-5dc37df00d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MFC\01.View\MiniMapView">
+      <UniqueIdentifier>{7ae9e216-6554-403e-88ee-0a8d21123776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MFC\01.View\DataView">
+      <UniqueIdentifier>{fe394cf3-2934-4f98-9c07-5de232649775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MFC\02.Doc">
+      <UniqueIdentifier>{0df6cd4e-8323-400b-b231-cefa6b7004bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Base">
+      <UniqueIdentifier>{e6351845-66a4-4c06-8c8a-a1d7e50ce55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Renderer">
+      <UniqueIdentifier>{f18fd6c9-6ac8-4eba-ade0-1be6d7050496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject">
+      <UniqueIdentifier>{85f4607a-510e-454b-a38c-3cfc24a35812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component">
+      <UniqueIdentifier>{363869e5-b908-43e6-843d-bfe7747fd311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Management">
+      <UniqueIdentifier>{d8cc1e65-b0be-4a0a-a4df-808a17b0b064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01.Terrain">
+      <UniqueIdentifier>{1b357948-c245-4965-93ed-cc0b464c7eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Management\00.GameObjectMgr">
+      <UniqueIdentifier>{28ef34dc-4a2c-4a70-99bd-4c5c980d76e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Management\01.ComponentMgr">
+      <UniqueIdentifier>{f7ac0c28-574f-4ae3-bfc1-6f41fcf88213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\00.VIBuffer">
+      <UniqueIdentifier>{d7a68972-d34e-4f13-84b5-518daa6d5471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\00.VIBuffer\00.VIBuffer_TriColor">
+      <UniqueIdentifier>{fdd371a7-2562-441f-b6e4-ec5e94a37897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\00.VIBuffer\01.VIBuffer_RectColor">
+      <UniqueIdentifier>{07fcf759-7440-41c5-afbe-87a89c8917ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\02.Cube">
+      <UniqueIdentifier>{fe315d55-6e6f-413a-8a35-57d6cc026e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Scene">
+      <UniqueIdentifier>{c1cc3bf2-4285-449f-9c44-65be1784b649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Layer">
+      <UniqueIdentifier>{2d23a0ce-09b1-47f7-8d74-4d650a6aab7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Management\02.SceneMgr">
+      <UniqueIdentifier>{6f54b830-4ba0-45fc-98e2-6f802692f7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Scene\00.Map">
+      <UniqueIdentifier>{925917cb-11de-4af8-8fe4-d408594e31fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\00.VIBuffer\02.VIBuffer_CubeTexture">
+      <UniqueIdentifier>{cd464124-e684-4241-9fc2-04fffe2d6992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\01.Transform">
+      <UniqueIdentifier>{5275a1ce-48dc-432a-9105-7aa9e3b9bb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\02.Camera">
+      <UniqueIdentifier>{2a901542-8294-47c9-92c1-b55ec36f226b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\03.Texture">
+      <UniqueIdentifier>{541321c2-35bf-4b7b-9491-05f498653d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.FileInfo">
+      <UniqueIdentifier>{d890f649-3624-4daf-bc1b-3afbb234f34e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MFC\00.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolView.h">
+      <Filter>00.MFC\01.View</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolDoc.h">
+      <Filter>00.MFC\02.Doc</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\00.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicDevice.h">
+      <Filter>99.Default\01.GraphicDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99.Default\00.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>99.Default\00.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>99.Default\00.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>99.Default\00.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>99.Default\00.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataView.h">
+      <Filter>00.MFC\01.View\DataView</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapView.h">
+      <Filter>00.MFC\01.View\MiniMapView</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>01.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>99.Default\00.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>03.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>99.Default\00.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Management.h">
+      <Filter>05.Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>02.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMgr.h">
+      <Filter>05.Management\00.GameObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentMgr.h">
+      <Filter>05.Management\01.ComponentMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>04.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="VIBuffer.h">
+      <Filter>04.Component\00.VIBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VIBuffer_TriColor.h">
+      <Filter>04.Component\00.VIBuffer\00.VIBuffer_TriColor</Filter>
+    </ClInclude>
+    <ClInclude Include="VIBuffer_RectColor.h">
+      <Filter>04.Component\00.VIBuffer\01.VIBuffer_RectColor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>06.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>05.Management\02.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>03.GameObject\02.Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>07.Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="MapScene.h">
+      <Filter>06.Scene\00.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="VIBuffer_CubeTexture.h">
+      <Filter>04.Component\00.VIBuffer\02.VIBuffer_CubeTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>04.Component\01.Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>04.Component\02.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>04.Component\03.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>08.FileInfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MFC\00.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolView.cpp">
+      <Filter>00.MFC\01.View</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolDoc.cpp">
+      <Filter>00.MFC\02.Doc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicDevice.cpp">
+      <Filter>99.Default\01.GraphicDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="DataView.cpp">
+      <Filter>00.MFC\01.View\DataView</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapView.cpp">
+      <Filter>00.MFC\01.View\MiniMapView</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>01.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>03.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Management.cpp">
+      <Filter>05.Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>02.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMgr.cpp">
+      <Filter>05.Management\00.GameObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentMgr.cpp">
+      <Filter>05.Management\01.ComponentMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>04.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="VIBuffer.cpp">
+      <Filter>04.Component\00.VIBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VIBuffer_TriColor.cpp">
+      <Filter>04.Component\00.VIBuffer\00.VIBuffer_TriColor</Filter>
+    </ClCompile>
+    <ClCompile Include="VIBuffer_RectColor.cpp">
+      <Filter>04.Component\00.VIBuffer\01.VIBuffer_RectColor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>06.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>05.Management\02.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>03.GameObject\02.Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>07.Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="MapScene.cpp">
+      <Filter>06.Scene\00.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="VIBuffer_CubeTexture.cpp">
+      <Filter>04.Component\00.VIBuffer\02.VIBuffer_CubeTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>04.Component\01.Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>04.Component\02.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>04.Component\03.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>08.FileInfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MapTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\MapToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MapTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
